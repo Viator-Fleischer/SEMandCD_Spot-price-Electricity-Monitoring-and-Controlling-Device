@@ -1,0 +1,39 @@
+currency: EUR
+log_file: logs/controller.log
+log_level: INFO
+nordpool_area: FI
+poll_interval: 15
+relays:
+- gpio_pin: 5
+  name: Liesi
+  normally_open: false
+  priority: 1
+  threshold: 4.1
+- gpio_pin: 6
+  name: Pyykinpesukone
+  normally_open: false
+  priority: 2
+  threshold: 2.6
+- gpio_pin: 13
+  name: Astianpesukone
+  normally_open: false
+  priority: 3
+  threshold: 5.0
+- gpio_pin: 16
+  mode: cheapest_hours
+  name: Lattialämmitys
+  normally_open: false
+  per_window: 6
+  priority: 4
+  window_hours: 24
+- day_per_window: 1
+  day_window_hours: 5
+  gpio_pin: 19
+  mode: cheapest_hours
+  name: Lämminvesivaraaja
+  night_end: 7
+  night_per_window: 1
+  night_start: 22
+  night_window_hours: 3
+  normally_open: false
+  priority: 5
