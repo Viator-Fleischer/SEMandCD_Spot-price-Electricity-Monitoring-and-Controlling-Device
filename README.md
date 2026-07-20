@@ -2,6 +2,9 @@
 ___________________________________________________________________
 SEM&amp;CD, short for Spot-price Monitoring and Controlling Device, is, as the name suggests, a program meant to keep track of current market prices for electricity, and then make it possible to control your home appliances in order to save money when the electricity bills are due. Very basic, AI-generated drivel.
 
+<img width="1865" height="978" alt="Screenshot From 2026-07-20 18-15-35" src="https://github.com/user-attachments/assets/20e07a9b-7f59-4d56-b385-28d6e1a834ea" />
+
+
 ## What's in here?
 There are about 3-6 moving parts in the program: 1) spot-price fetcher, made possible with an API-service ("price_fetcher.py") 2) a driver for gpio pins (like Raspberry pi's or Rock64's or any other similar Singular-Board-Computers') where you'd jack in n number of relays you're intending on controlling with this program (gpio_driver.py) 3) a daemon script that ties the aforementioned price fetching and relay switching elements together ("controller.py") 4) a miniscule config file to make it easier to edit the names for your relay appliances and their respective gpio pins ("config.yaml") 5) a semi-user-friendly browser-mediated dashboard for the whole program ("dashboard.py") and 6) perhaps somewhat little-needed quick status viewer for the spot-price controller that gives the daily minimum, maximum and average prices, the relay ON/OFF status, as well as hourly prices ("status.py").
 
