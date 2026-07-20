@@ -36,7 +36,7 @@ git clone https://github.com/Viator-Fleischer/SEMandCD_Spot-price-Electricity-Mo
 
 ### 1# Get System Packages
 ```
-/code sudo apt update
+sudo apt update
 sudo apt install -y python3 python3-pip python3-venv git
 ```
 
