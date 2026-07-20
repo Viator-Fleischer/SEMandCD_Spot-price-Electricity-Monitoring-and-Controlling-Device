@@ -1,6 +1,6 @@
 # SEMandCD_Spot-price-Electricity-Monitoring-and-Controlling-Device
 ___________________________________________________________________
-SEM&amp;CD, short for Spot-price Monitoring and Controlling Device, is, as the name suggests, a program meant to keep track of current market prices for electricity, and then make it possible to control your home appliances in order to save money when the electricity bills are due. Very basic, AI-generated drivel.
+SEM&amp;CD, short for Spot-price Electricity Monitoring and Controlling Device (or, alternatively "PörssisähköKontrolleri"), is, as the name suggests, a program meant to keep track of current market prices for electricity, and then make it possible to control your home appliances in order to save money when the electricity bills are due. Very basic, AI-generated drivel.
 
 <img width="1865" height="978" alt="Screenshot From 2026-07-20 18-15-35" src="https://github.com/user-attachments/assets/20e07a9b-7f59-4d56-b385-28d6e1a834ea" />
 
